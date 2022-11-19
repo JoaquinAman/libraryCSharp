@@ -1,0 +1,12 @@
+C:\Users\Joaquin Aman\source\repos\BackendLibrary\Domain.Model\bin\Debug\net6.0\Domain.Model.deps.json
+C:\Users\Joaquin Aman\source\repos\BackendLibrary\Domain.Model\bin\Debug\net6.0\Domain.Model.dll
+C:\Users\Joaquin Aman\source\repos\BackendLibrary\Domain.Model\bin\Debug\net6.0\Domain.Model.pdb
+C:\Users\Joaquin Aman\source\repos\BackendLibrary\Domain.Model\obj\Debug\net6.0\Domain.Model.csproj.AssemblyReference.cache
+C:\Users\Joaquin Aman\source\repos\BackendLibrary\Domain.Model\obj\Debug\net6.0\Domain.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Joaquin Aman\source\repos\BackendLibrary\Domain.Model\obj\Debug\net6.0\Domain.Model.AssemblyInfoInputs.cache
+C:\Users\Joaquin Aman\source\repos\BackendLibrary\Domain.Model\obj\Debug\net6.0\Domain.Model.AssemblyInfo.cs
+C:\Users\Joaquin Aman\source\repos\BackendLibrary\Domain.Model\obj\Debug\net6.0\Domain.Model.csproj.CoreCompileInputs.cache
+C:\Users\Joaquin Aman\source\repos\BackendLibrary\Domain.Model\obj\Debug\net6.0\Domain.Model.dll
+C:\Users\Joaquin Aman\source\repos\BackendLibrary\Domain.Model\obj\Debug\net6.0\refint\Domain.Model.dll
+C:\Users\Joaquin Aman\source\repos\BackendLibrary\Domain.Model\obj\Debug\net6.0\Domain.Model.pdb
+C:\Users\Joaquin Aman\source\repos\BackendLibrary\Domain.Model\obj\Debug\net6.0\ref\Domain.Model.dll
