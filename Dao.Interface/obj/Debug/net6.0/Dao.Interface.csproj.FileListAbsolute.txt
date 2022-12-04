@@ -1,0 +1,12 @@
+C:\Users\Joaqu\source\repos\libraryCSharp\Dao.Interface\bin\Debug\net6.0\Dao.Interface.deps.json
+C:\Users\Joaqu\source\repos\libraryCSharp\Dao.Interface\bin\Debug\net6.0\Dao.Interface.dll
+C:\Users\Joaqu\source\repos\libraryCSharp\Dao.Interface\bin\Debug\net6.0\Dao.Interface.pdb
+C:\Users\Joaqu\source\repos\libraryCSharp\Dao.Interface\obj\Debug\net6.0\Dao.Interface.csproj.AssemblyReference.cache
+C:\Users\Joaqu\source\repos\libraryCSharp\Dao.Interface\obj\Debug\net6.0\Dao.Interface.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Joaqu\source\repos\libraryCSharp\Dao.Interface\obj\Debug\net6.0\Dao.Interface.AssemblyInfoInputs.cache
+C:\Users\Joaqu\source\repos\libraryCSharp\Dao.Interface\obj\Debug\net6.0\Dao.Interface.AssemblyInfo.cs
+C:\Users\Joaqu\source\repos\libraryCSharp\Dao.Interface\obj\Debug\net6.0\Dao.Interface.csproj.CoreCompileInputs.cache
+C:\Users\Joaqu\source\repos\libraryCSharp\Dao.Interface\obj\Debug\net6.0\Dao.Interface.dll
+C:\Users\Joaqu\source\repos\libraryCSharp\Dao.Interface\obj\Debug\net6.0\refint\Dao.Interface.dll
+C:\Users\Joaqu\source\repos\libraryCSharp\Dao.Interface\obj\Debug\net6.0\Dao.Interface.pdb
+C:\Users\Joaqu\source\repos\libraryCSharp\Dao.Interface\obj\Debug\net6.0\ref\Dao.Interface.dll

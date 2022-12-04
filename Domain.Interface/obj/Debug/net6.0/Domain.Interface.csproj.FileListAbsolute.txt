@@ -13,3 +13,18 @@ C:\Users\Joaquin Aman\source\repos\BackendLibrary\Domain.Interface\obj\Debug\net
 C:\Users\Joaquin Aman\source\repos\BackendLibrary\Domain.Interface\obj\Debug\net6.0\refint\Domain.Interface.dll
 C:\Users\Joaquin Aman\source\repos\BackendLibrary\Domain.Interface\obj\Debug\net6.0\Domain.Interface.pdb
 C:\Users\Joaquin Aman\source\repos\BackendLibrary\Domain.Interface\obj\Debug\net6.0\ref\Domain.Interface.dll
+C:\Users\Joaqu\Source\Repos\libraryCSharp\Domain.Interface\bin\Debug\net6.0\Domain.Interface.deps.json
+C:\Users\Joaqu\Source\Repos\libraryCSharp\Domain.Interface\bin\Debug\net6.0\Domain.Interface.dll
+C:\Users\Joaqu\Source\Repos\libraryCSharp\Domain.Interface\bin\Debug\net6.0\Domain.Interface.pdb
+C:\Users\Joaqu\Source\Repos\libraryCSharp\Domain.Interface\bin\Debug\net6.0\Domain.Model.dll
+C:\Users\Joaqu\Source\Repos\libraryCSharp\Domain.Interface\bin\Debug\net6.0\Domain.Model.pdb
+C:\Users\Joaqu\Source\Repos\libraryCSharp\Domain.Interface\obj\Debug\net6.0\Domain.Interface.csproj.AssemblyReference.cache
+C:\Users\Joaqu\Source\Repos\libraryCSharp\Domain.Interface\obj\Debug\net6.0\Domain.Interface.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Joaqu\Source\Repos\libraryCSharp\Domain.Interface\obj\Debug\net6.0\Domain.Interface.AssemblyInfoInputs.cache
+C:\Users\Joaqu\Source\Repos\libraryCSharp\Domain.Interface\obj\Debug\net6.0\Domain.Interface.AssemblyInfo.cs
+C:\Users\Joaqu\Source\Repos\libraryCSharp\Domain.Interface\obj\Debug\net6.0\Domain.Interface.csproj.CoreCompileInputs.cache
+C:\Users\Joaqu\Source\Repos\libraryCSharp\Domain.Interface\obj\Debug\net6.0\Domain.Interface.csproj.CopyComplete
+C:\Users\Joaqu\Source\Repos\libraryCSharp\Domain.Interface\obj\Debug\net6.0\Domain.Interface.dll
+C:\Users\Joaqu\Source\Repos\libraryCSharp\Domain.Interface\obj\Debug\net6.0\refint\Domain.Interface.dll
+C:\Users\Joaqu\Source\Repos\libraryCSharp\Domain.Interface\obj\Debug\net6.0\Domain.Interface.pdb
+C:\Users\Joaqu\Source\Repos\libraryCSharp\Domain.Interface\obj\Debug\net6.0\ref\Domain.Interface.dll

@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Joaquin Aman\\source\\repos\\BackendLibrary\\Dao.Model\\Dao.Model.csproj": {}
+    "C:\\Users\\Joaqu\\source\\repos\\libraryCSharp\\Dao.Model\\Dao.Model.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Joaquin Aman\\source\\repos\\BackendLibrary\\Dao.Model\\Dao.Model.csproj": {
+    "C:\\Users\\Joaqu\\source\\repos\\libraryCSharp\\Dao.Model\\Dao.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Joaquin Aman\\source\\repos\\BackendLibrary\\Dao.Model\\Dao.Model.csproj",
+        "projectUniqueName": "C:\\Users\\Joaqu\\source\\repos\\libraryCSharp\\Dao.Model\\Dao.Model.csproj",
         "projectName": "Dao.Model",
-        "projectPath": "C:\\Users\\Joaquin Aman\\source\\repos\\BackendLibrary\\Dao.Model\\Dao.Model.csproj",
-        "packagesPath": "C:\\Users\\Joaquin Aman\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Joaquin Aman\\source\\repos\\BackendLibrary\\Dao.Model\\obj\\",
+        "projectPath": "C:\\Users\\Joaqu\\source\\repos\\libraryCSharp\\Dao.Model\\Dao.Model.csproj",
+        "packagesPath": "C:\\Users\\Joaqu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Joaqu\\source\\repos\\libraryCSharp\\Dao.Model\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Joaquin Aman\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Joaqu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -27,7 +31,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\Joaqu\\source\\repos\\libraryCSharp\\Domain.Model\\Domain.Model.csproj": {
+                "projectPath": "C:\\Users\\Joaqu\\source\\repos\\libraryCSharp\\Domain.Model\\Domain.Model.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -55,7 +63,72 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Joaqu\\source\\repos\\libraryCSharp\\Domain.Model\\Domain.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Joaqu\\source\\repos\\libraryCSharp\\Domain.Model\\Domain.Model.csproj",
+        "projectName": "Domain.Model",
+        "projectPath": "C:\\Users\\Joaqu\\source\\repos\\libraryCSharp\\Domain.Model\\Domain.Model.csproj",
+        "packagesPath": "C:\\Users\\Joaqu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Joaqu\\Source\\Repos\\libraryCSharp\\Domain.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Joaqu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.31, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

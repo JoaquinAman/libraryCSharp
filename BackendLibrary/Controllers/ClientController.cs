@@ -14,28 +14,34 @@ namespace BackendLibrary.Controllers
             this.clientDomain = clientDomain;
         }
         [HttpGet]
+        [Route("/api/v1/clients/tests")]
+        public string IntegrationTest()
+        {
+            return "Hello World";
+        }
+        [HttpGet]
         public List<Client> GetClients()
         {
             return clientDomain.GetClients();
         }
         [HttpGet]
         [Route("{id}")]
-        public async Task<Client> GetClientById(string id)
+        public async Task<Client> GetClientById(int id)
         {
             return await clientDomain.GetClientById(id);
         }
         [HttpPost]
-        public Client CreateClient(Client client)
+        public string CreateClient(string client)
         {
             return clientDomain.Create(client);
         }
         [HttpPut]
-        public Client UpdateClient(string id, Client client)
+        public Client UpdateClient(int id, Client client)
         {
             return clientDomain.Update(id, client);
         }
         [HttpDelete]
-        public void DeleteClient(string id)
+        public void DeleteClient(int id)
         {
             clientDomain.Delete(id);
         }

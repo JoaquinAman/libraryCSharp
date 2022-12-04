@@ -9,28 +9,28 @@ namespace Domain.Service
     public class ClientDomainService : IClientDomain
     {
         MyConnection connection = new MyConnection();
-        public Client Create(Client client)
+        
+        public string Create(string name)
         {
-            string query = "insert into client (id, name)" + "values('" + client.Id + "','" +
-              client.Name + "');";
+            string query = "insert into client (name)" + "values('" + name + "');";
             MySqlCommand myCommand = new MySqlCommand(query, connection.establecerConexion());
             MySqlDataReader myDataReader = myCommand.ExecuteReader();
             connection.cerrarConexion();
-            return client;
+            return name;
         }
 
-        public void Delete(string id)
+        public void Delete(int id)
         {
-            string query = "delete from client where client.id=" + id + ";";
+            string query = "delete from client where client.id='" + id + "';";
             MySqlCommand myCommand = new MySqlCommand(query, connection.establecerConexion());
             MySqlDataReader myDataReader = myCommand.ExecuteReader();
             connection.cerrarConexion();
         }
 
-        public async Task<Client> GetClientById(string id)
+        public async Task<Client> GetClientById(int id)
         {
             List<Client> clientList = GetClients();
-            List<string> idList = new();
+            List<int> idList = new();
 
             
             try
@@ -40,11 +40,7 @@ namespace Domain.Service
                     idList.Add(clientInList.Id);
                 }
                 int numericValue;
-                bool isNumber = int.TryParse(id, out numericValue);
-                if (!isNumber)
-                {
-                    throw new FormatErrorException();
-                }
+                
                 if (!idList.Contains(id))
                 {
                     throw new EntityNotFoundException();
@@ -64,7 +60,7 @@ namespace Domain.Service
                 }
             }
             
-            string query = "select * from client where client.id =" + id + ";";
+            string query = "select * from client where client.id ='" + id + "';";
             MySqlCommand myCommand = new MySqlCommand(query, connection.establecerConexion());
             MySqlDataReader myDataReader = myCommand.ExecuteReader();
 
@@ -74,7 +70,7 @@ namespace Domain.Service
             {
                 client = new Client
                 {
-                    Id = myDataReader["id"].ToString(),
+                    Id = (int)myDataReader["id"],
                     Name = myDataReader["name"].ToString()
                 };
             }
@@ -91,7 +87,7 @@ namespace Domain.Service
             var clientList = ds.Tables[0].AsEnumerable()
                 .Select(dataRow => new Client
                 {
-                    Id = dataRow.Field<string>("id"),
+                    Id = dataRow.Field<int>("id"),
                     Name = dataRow.Field<string>("name")
                 }).ToList();
 
@@ -100,13 +96,13 @@ namespace Domain.Service
             return clientList;
         }
 
-        public Client Update(string clientId, Client client)
+        public Client Update(int clientId, Client client)
         {
-            string id = client.Id;
+            int id = client.Id;
             string name = client.Name;
             
             string query = "UPDATE `client` SET `id`='" + id + "' , `name`='" + name 
-                + "' where client.id=" + clientId + ";";
+                + "' where client.id='" + clientId + "';";
             MySqlCommand myCommand = new MySqlCommand(query, connection.establecerConexion());
             myCommand.ExecuteNonQuery();
 

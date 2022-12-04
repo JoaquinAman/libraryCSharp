@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Joaquin Aman\\source\\repos\\BackendLibrary\\Domain.Service\\Domain.Service.csproj": {}
+    "C:\\Users\\Joaqu\\source\\repos\\libraryCSharp\\Domain.Service\\Domain.Service.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Joaquin Aman\\source\\repos\\BackendLibrary\\Domain.Interface\\Domain.Interface.csproj": {
+    "C:\\Users\\Joaqu\\source\\repos\\libraryCSharp\\Domain.Interface\\Domain.Interface.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Joaquin Aman\\source\\repos\\BackendLibrary\\Domain.Interface\\Domain.Interface.csproj",
+        "projectUniqueName": "C:\\Users\\Joaqu\\source\\repos\\libraryCSharp\\Domain.Interface\\Domain.Interface.csproj",
         "projectName": "Domain.Interface",
-        "projectPath": "C:\\Users\\Joaquin Aman\\source\\repos\\BackendLibrary\\Domain.Interface\\Domain.Interface.csproj",
-        "packagesPath": "C:\\Users\\Joaquin Aman\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Joaquin Aman\\source\\repos\\BackendLibrary\\Domain.Interface\\obj\\",
+        "projectPath": "C:\\Users\\Joaqu\\source\\repos\\libraryCSharp\\Domain.Interface\\Domain.Interface.csproj",
+        "packagesPath": "C:\\Users\\Joaqu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Joaqu\\source\\repos\\libraryCSharp\\Domain.Interface\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Joaquin Aman\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Joaqu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +32,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Joaquin Aman\\source\\repos\\BackendLibrary\\Domain.Model\\Domain.Model.csproj": {
-                "projectPath": "C:\\Users\\Joaquin Aman\\source\\repos\\BackendLibrary\\Domain.Model\\Domain.Model.csproj"
+              "C:\\Users\\Joaqu\\source\\repos\\libraryCSharp\\Domain.Model\\Domain.Model.csproj": {
+                "projectPath": "C:\\Users\\Joaqu\\source\\repos\\libraryCSharp\\Domain.Model\\Domain.Model.csproj"
               }
             }
           }
@@ -65,21 +69,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Joaquin Aman\\source\\repos\\BackendLibrary\\Domain.Model\\Domain.Model.csproj": {
+    "C:\\Users\\Joaqu\\source\\repos\\libraryCSharp\\Domain.Model\\Domain.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Joaquin Aman\\source\\repos\\BackendLibrary\\Domain.Model\\Domain.Model.csproj",
+        "projectUniqueName": "C:\\Users\\Joaqu\\source\\repos\\libraryCSharp\\Domain.Model\\Domain.Model.csproj",
         "projectName": "Domain.Model",
-        "projectPath": "C:\\Users\\Joaquin Aman\\source\\repos\\BackendLibrary\\Domain.Model\\Domain.Model.csproj",
-        "packagesPath": "C:\\Users\\Joaquin Aman\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Joaquin Aman\\source\\repos\\BackendLibrary\\Domain.Model\\obj\\",
+        "projectPath": "C:\\Users\\Joaqu\\source\\repos\\libraryCSharp\\Domain.Model\\Domain.Model.csproj",
+        "packagesPath": "C:\\Users\\Joaqu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Joaqu\\source\\repos\\libraryCSharp\\Domain.Model\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Joaquin Aman\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Joaqu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -126,21 +134,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Joaquin Aman\\source\\repos\\BackendLibrary\\Domain.Service\\Domain.Service.csproj": {
+    "C:\\Users\\Joaqu\\source\\repos\\libraryCSharp\\Domain.Service\\Domain.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Joaquin Aman\\source\\repos\\BackendLibrary\\Domain.Service\\Domain.Service.csproj",
+        "projectUniqueName": "C:\\Users\\Joaqu\\source\\repos\\libraryCSharp\\Domain.Service\\Domain.Service.csproj",
         "projectName": "Domain.Service",
-        "projectPath": "C:\\Users\\Joaquin Aman\\source\\repos\\BackendLibrary\\Domain.Service\\Domain.Service.csproj",
-        "packagesPath": "C:\\Users\\Joaquin Aman\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Joaquin Aman\\source\\repos\\BackendLibrary\\Domain.Service\\obj\\",
+        "projectPath": "C:\\Users\\Joaqu\\source\\repos\\libraryCSharp\\Domain.Service\\Domain.Service.csproj",
+        "packagesPath": "C:\\Users\\Joaqu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Joaqu\\source\\repos\\libraryCSharp\\Domain.Service\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Joaquin Aman\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Joaqu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -154,11 +166,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Joaquin Aman\\source\\repos\\BackendLibrary\\Domain.Interface\\Domain.Interface.csproj": {
-                "projectPath": "C:\\Users\\Joaquin Aman\\source\\repos\\BackendLibrary\\Domain.Interface\\Domain.Interface.csproj"
+              "C:\\Users\\Joaqu\\source\\repos\\libraryCSharp\\Domain.Interface\\Domain.Interface.csproj": {
+                "projectPath": "C:\\Users\\Joaqu\\source\\repos\\libraryCSharp\\Domain.Interface\\Domain.Interface.csproj"
               },
-              "C:\\Users\\Joaquin Aman\\source\\repos\\BackendLibrary\\Domain.Model\\Domain.Model.csproj": {
-                "projectPath": "C:\\Users\\Joaquin Aman\\source\\repos\\BackendLibrary\\Domain.Model\\Domain.Model.csproj"
+              "C:\\Users\\Joaqu\\source\\repos\\libraryCSharp\\Domain.Model\\Domain.Model.csproj": {
+                "projectPath": "C:\\Users\\Joaqu\\source\\repos\\libraryCSharp\\Domain.Model\\Domain.Model.csproj"
               }
             }
           }
@@ -194,7 +206,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

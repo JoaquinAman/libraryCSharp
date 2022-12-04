@@ -1,0 +1,6 @@
+{
+  "BackendLibrary, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Joaqu\\source\\repos\\libraryCSharp\\BackendLibrary",
+  "Domain.Interface, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Joaqu\\source\\repos\\libraryCSharp\\Domain.Interface",
+  "Domain.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Joaqu\\source\\repos\\libraryCSharp\\Domain.Model",
+  "Domain.Service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Joaqu\\source\\repos\\libraryCSharp\\Domain.Service"
+}

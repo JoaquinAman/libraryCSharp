@@ -1,0 +1,12 @@
+C:\Users\Joaqu\source\repos\libraryCSharp\Dao.Model\bin\Debug\net6.0\Dao.Model.deps.json
+C:\Users\Joaqu\source\repos\libraryCSharp\Dao.Model\bin\Debug\net6.0\Dao.Model.dll
+C:\Users\Joaqu\source\repos\libraryCSharp\Dao.Model\bin\Debug\net6.0\Dao.Model.pdb
+C:\Users\Joaqu\source\repos\libraryCSharp\Dao.Model\obj\Debug\net6.0\Dao.Model.csproj.AssemblyReference.cache
+C:\Users\Joaqu\source\repos\libraryCSharp\Dao.Model\obj\Debug\net6.0\Dao.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Joaqu\source\repos\libraryCSharp\Dao.Model\obj\Debug\net6.0\Dao.Model.AssemblyInfoInputs.cache
+C:\Users\Joaqu\source\repos\libraryCSharp\Dao.Model\obj\Debug\net6.0\Dao.Model.AssemblyInfo.cs
+C:\Users\Joaqu\source\repos\libraryCSharp\Dao.Model\obj\Debug\net6.0\Dao.Model.csproj.CoreCompileInputs.cache
+C:\Users\Joaqu\source\repos\libraryCSharp\Dao.Model\obj\Debug\net6.0\Dao.Model.dll
+C:\Users\Joaqu\source\repos\libraryCSharp\Dao.Model\obj\Debug\net6.0\refint\Dao.Model.dll
+C:\Users\Joaqu\source\repos\libraryCSharp\Dao.Model\obj\Debug\net6.0\Dao.Model.pdb
+C:\Users\Joaqu\source\repos\libraryCSharp\Dao.Model\obj\Debug\net6.0\ref\Dao.Model.dll

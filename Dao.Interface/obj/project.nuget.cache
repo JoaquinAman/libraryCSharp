@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "C+xoijKAlbuWsXwyCeFhEhHHksexXs/cM8PcX3CjvTLAV5OjnmnT79tAr3vRu4wybcffdlVhdyF4759iJ6mJZQ==",
+  "dgSpecHash": "z6fpQiCMKYNMu9RSKsGSJr1imcLkkQQwIcftBuqgeMpSbDyOu9O1H+NKq+ADbBoO6FL8BDkupxLrRzPDRdHoBA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Joaquin Aman\\source\\repos\\BackendLibrary\\Dao.Interface\\Dao.Interface.csproj",
+  "projectFilePath": "C:\\Users\\Joaqu\\source\\repos\\libraryCSharp\\Dao.Interface\\Dao.Interface.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

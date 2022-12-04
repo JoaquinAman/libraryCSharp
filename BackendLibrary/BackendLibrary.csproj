@@ -10,6 +10,10 @@
     <PackageReference Include="MySql.Data" Version="8.0.31" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
   </ItemGroup>
+  
+  <ItemGroup>
+	<InternalVisibleTo Include="Test.Integration" />
+  </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Domain.Interface\Domain.Interface.csproj" />

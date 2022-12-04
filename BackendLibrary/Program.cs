@@ -7,38 +7,11 @@ namespace BackendLibrary
     {
         public static void Main(string[] args)
         {
-            var builder = WebApplication.CreateBuilder(args);
-
-            builder.Services.AddTransient<IClientDomain, ClientDomainService>();
-            builder.Services.AddTransient<ILibrarianDomain, LibrarianDomainService>();
-
-            // Add services to the container.
-
-            builder.Services.AddControllers();
-            // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-            builder.Services.AddEndpointsApiExplorer();
-            builder.Services.AddSwaggerGen();
-
-            var app = builder.Build();
-
-            // Configure the HTTP request pipeline.
-            if (app.Environment.IsDevelopment())
-            {
-                app.UseSwagger();
-                app.UseSwaggerUI();
-            }
-
-            app.UseHttpsRedirection();
-
-            app.UseExceptionHandler("/error");
-
-            //app.UseCors("AllowAll");
-
-            app.UseAuthorization();
-
-            app.MapControllers();
-
+            Startup startup = new Startup();
+            var app = startup.InitApp(args);
             app.Run();
         }
     }
 }
+// generar IDs automatico en la BD
+// cambiar librarian por books

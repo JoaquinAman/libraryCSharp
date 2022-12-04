@@ -4,11 +4,11 @@ namespace Domain.Interface
 {
     public interface IClientDomain
     {
-        Task<Client> GetClientById(string id);
+        Task<Client> GetClientById(int id);
         List<Client> GetClients();
-        Client Create(Client client);
+        string Create(string clientName);
 
-        Client Update(string id, Client client);
-        void Delete(string id);
+        Client Update(int id, Client client);
+        void Delete(int id);
     }
 }
